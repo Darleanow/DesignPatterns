@@ -9,7 +9,7 @@ add_executable(
   src/main.cpp
   src/Observer/FranceObserver.cpp
   src/Observer/UnitedStatesObserver.cpp
-  src/Strategy/FranceDisplayStrategy.cpp 
+  src/Strategy/FranceStrategy.cpp 
   src/Strategy/UnitedStatesStrategy.cpp
   src/Subject/Subject.cpp
 )

@@ -1,4 +1,4 @@
-#include "DesignPatterns/Strategy/FranceDislayStrategy.h"
+#include "DesignPatterns/Strategy/FranceStrategy.h"
 #include <iostream>
 #include <ostream>
 

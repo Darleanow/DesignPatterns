@@ -7,13 +7,11 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_executable(
   DesignPatterns
   src/main.cpp
-  src/Burger/Burger.cpp
-  src/BurgerBuilder/BurgerBuilder.cpp
-  src/CoreUtils/CoreUtils.cpp
-  src/Menus/SmallMenu.cpp
-  src/Menus/MediumMenu.cpp
-  src/Menus/LargeMenu.cpp
-  src/Menus/MenuFactory.cpp
+  src/Observer/FranceObserver.cpp
+  src/Observer/UnitedStatesObserver.cpp
+  src/Strategy/FranceDisplayStrategy.cpp 
+  src/Strategy/UnitedStatesStrategy.cpp
+  src/Subject/Subject.cpp
 )
 
 target_include_directories(DesignPatterns PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
